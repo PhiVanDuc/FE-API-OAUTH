@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import Cookies from "js-cookie";
 import { getUser } from "@/actions/server-actions";
 
-export default function page() {
+export default function PageDetail() {
     const params = useParams();
     const router = useRouter();
     const [userState, setUserState] = useState();

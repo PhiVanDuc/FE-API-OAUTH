@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import Cookies from "js-cookie";
 import { getUrlRedirect } from '@/actions/server-actions';
 
-export default function page() {
+export default function PageLogin() {
     const router = useRouter();
     const [appearState, setAppearState] = useState(false);
 

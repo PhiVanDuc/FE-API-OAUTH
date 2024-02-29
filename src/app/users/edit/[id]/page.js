@@ -5,7 +5,7 @@ import { editUser, getUser } from "@/actions/server-actions";
 import { useRouter, useParams } from "next/navigation";
 import Cookies from "js-cookie";
 
-export default function page() {
+export default function PageEdit() {
     const { id } = useParams();
     const router = useRouter();
     const [name, setName] = useState('');

@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Cookies from "js-cookie";
 
-export default function page({ searchParams }) {
+export default function HandleRedirect({ searchParams }) {
     const queryString = new URLSearchParams(searchParams).toString();
     const router = useRouter();
     
